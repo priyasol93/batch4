@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+    <style>
+       .active{
+           background-color:chartreuse;
+        }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark sticky-top" >
+        <a class="navbar-brand" href="#">
+            <img src="/images/image1.jpg" width=30 class="img-thumbnail-w-25" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon bg-white"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active ">
+              <a class="nav-link text-white" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="Aboutus.html">AboutUs</a>
+            </li>
+      
+            
+          
+            
+          </ul>
+          
+        </div>
+        <button class="btn btn-primary mr-1" data-target="#login" data-toggle="modal">SignUp</button>
+        <button class="btn btn-success" data-target="#log" data-toggle="modal">login</button>
+
+        <!-- Modal SignUp -->
+</nav>
+<div class="modal fade" id="login">
+  <div class="modal-dialog modal-sm">
+      <div class="modal-content">
+          <div class="modal-header">
+<h4 class="modal-title">SignUp</h4>
+<button data-dismiss="modal" class="close">&times;</button>
+
+</div>
+ 
+      <div class="modal-body">
+          <form class="n1" novalidate>
+              <div class="form-group">
+              <label for="">Username</label>
+              <input class="form-control" placeholder="Enter your username"type="text" required>
+              <small class="invalid-feedback">Please enter 4 minimum character</small>
+          </div>
+          <div class="form-group">
+          <label for="">Password</label>
+          <input class="form-control" type="password" name="" id="">
+      </div>
+      <label for="">Gender</label>
+      <div class="form-check form-check-inline">
+          
+        <input class="form-check-input" type="radio" name="n1" id="">
+        <label class="form-check-label" for="">Male</label> 
+      <input class="form-check-input" type="radio" name="n1" id="">
+  <label class="form-check-label" for="">Female</label>    
+  </div>
+      <div class="form-check">
+         
+      <input class="form-check-input" type="checkbox" name="" id="">    
+      <label class="form-check-label" for="">Terms and conditions</label>
+  
+  </div>
+      <input type="submit" value="Login">
+          </form>
+      </div>
+      <div class="modal-footer">
+          <button class="btn btn-success">Submit</button>
+          <button class="btn btn-success" data-dismiss="modal">Close</button>
+      </div>
+  </div>
+  </div>
+</div>
+<!-- Login Modal -->
+<div class="modal" id="log">
+    
+  <div class="modal-dialog modal-sm">
+  <div class="modal-content">
+  <div class="modal-header">
+  <h3 class="modal-title">Login</h3>
+  <button class="close" data-dismiss="modal">&times</button>
+  
+  
+  </div>
+  <div class="modal-body">
+  <form class="n1" novalidate>
+      <div class="form-group">
+  <label for="user">Username</label>
+  <input class="form-control" type="text" name="" id="user" required>
+<span class="invalid-feedback">user is invalid</span>  
+</div>
+  <div class="form-group">
+      <label for="pwd">Password</label>
+      <input class="form-control" type="password" name="" id="pwd" required>
+    <span class="invalid-feedback">Password-consits of 8-12 characters</span>  
+    </div>
+      <div>
+          <input type="submit" value="Login">
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-success" data-dismiss="modal">Close</button>
+      </div>
+  </form>
+  </div>
+  </div>
+  </div>
+  
+  </div>
+  
+     
+
+<!-- caurosel -->
+<div id="carouselExampleControls" class="carousel" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  
+  
+  
+  
+  <div class="carousel-inner">
+   
+
+    <div class="carousel-item active">
+      
+      <img src="images/image1.jpg" class="d-block w-100" height="300px" alt="...">
+    <div class="carousel-caption">
+      <h5 class="display-1 text-warning">Our Website</h5>
+    </div>
+    </div>
+    <div class="carousel-item">
+      <div class="carousel-caption">
+        <h5 class="display-1 text-warning">Our Website</h5>
+      </div>
+      <img src="images/img2.jpg" class="d-block w-100" height="300px" alt="...">
+    </div>
+    <div class="carousel-item" >
+      <div class="carousel-caption">
+        <h5 class="display-1 text-warning">Our Website</h5>
+        <p>Future is ours</p>
+      </div>
+      <img src="images/img3.jpg" class="d-block w-100" height="300px"  alt="...">
+    </div>
+
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true" class="float-left"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</div>
+</div>
+
+
+<!-- paragragh -->
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo libero quis temporibus molestiae eveniet quos earum ut explicabo laboriosam doloribus alias sit ex eius corporis tempora, accusamus ducimus delectus soluta id commodi dignissimos suscipit vero omnis? Deleniti quos blanditiis facere libero dolorem ratione tenetur laboriosam recusandae perferendis voluptate porro neque numquam commodi ab, ex velit quibusdam aperiam impedit debitis! Fugiat repellat, rerum ab eum eligendi minima rem. Mollitia delectus quo accusantium similique assumenda minima recusandae commodi pariatur tempora, repellat officiis dignissimos ipsam iste saepe eligendi quis blanditiis tenetur ea beatae. Reiciendis similique recusandae, iste tenetur beatae possimus repudiandae. Maxime magni dolorum nobis laboriosam fugiat, quaerat maiores debitis temporibus distinctio non expedita et quam ratione ducimus? Et ducimus deleniti at voluptates molestias nihil dignissimos sit, voluptatem ipsa aliquam eum enim ullam laudantium expedita commodi facilis eaque accusamus, mollitia quas earum iusto optio. Tempora ea perferendis iusto esse ab vero aut facere explicabo dignissimos itaque excepturi deserunt commodi, quod debitis quaerat! Impedit ut amet fugit sint pariatur quaerat id optio distinctio inventore eaque deleniti sit iure rerum consequatur velit mollitia molestias eum, recusandae aperiam perferendis labore voluptatibus, consectetur cupiditate ratione. Nisi vel eius suscipit nulla! Molestiae sunt, adipisci sed doloremque, at quo, modi ut quia labore saepe asperiores aspernatur quasi cum animi explicabo consequuntur neque in perspiciatis veritatis voluptate odio! Sequi sapiente possimus maiores pariatur eos odit, tenetur unde nobis ex eligendi sint architecto dolore facilis aut impedit ut quos voluptatum non alias autem aliquid quod omnis voluptas? Quae ut repudiandae officia libero quod porro accusamus dignissimos nihil. Iure ipsa accusamus amet rem ex tempora distinctio. Ut assumenda iure facilis repellendus, voluptate ipsam asperiores maiores exercitationem modi tempore velit dolorum dolores quos sit distinctio beatae enim veritatis natus libero eum error quia rerum. Necessitatibus quae tempora expedita sint eaque facilis delectus ipsa.</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas facilis fugit cupiditate vero atque qui officia ullam sunt quaerat iusto!</p>
+
+      <div class="jumbotron bg-warning my-5">
+        <div class="container my-5">
+            <h1 class="text-white text-center my-3">Our Places</h1>
+  <div class="row">
+  <div class="col-md-4 my-4">
+      <div class="card">
+          <img src="/images/img2.jpg" alt="" class="img-thumbnail">
+          <div class="card-body">
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem, aliquam perferendis error nisi ut temporibus ea dolorum doloremque? Cum, excepturi!</p>
+      </div>
+  </div>
+  </div>
+  <div class="col-md-4 my-4">
+      <div class="card">
+          <img src="/images/img4.jpg" alt="" class="img-thumbnail">
+          <div class="card-body">
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam ducimus qui temporibus omnis quae culpa ut? Ratione autem illo repellat!</p>
+      </div>
+      
+  </div>
+  </div>
+  <div class="col-md-4 my-4">
+      <div class="card">
+          
+          <div class="card-body">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi consequatur veniam cupiditate consequuntur, nobis aliquam eius veritatis! Id, sequi error.</p>
+          <img src="/images/img3.jpg" alt="" class="img-thumbnail w-100">
+      </div>
+  </div>
+  </div>
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  
+  
+  
+  
+  
+        </div>
+      </div>
+      <script>
+var f1=document.querySelector('.n1');
+f1.addEventListener('submit',e=>{
+  if(f1.checkValidity()==false){
+    e.preventDefault();
+    e.stopPropagation();
+  }
+  f1.classList.add('was-validated');
+})
+      </script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+</html>
